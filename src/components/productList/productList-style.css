@@ -1,0 +1,84 @@
+.product-list-container {
+    width: 100%;
+    max-width: 1400px; /* Houdt de shop netjes gecentreerd op hele brede schermen */
+    margin: 0 auto;
+}
+
+.product-grid {
+    display: grid !important; /* Forceer grid-modus */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+
+    /* TUSSENRUIMTE: verticaal (row) en horizontaal (column) */
+    row-gap: 30px !important; 
+    column-gap: 20px;
+
+    /* Responsive kolommen */
+    grid-template-columns: repeat(2, 1fr); /* Mobiel: 2 */
+}
+
+@media screen and (min-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr); /* Tablet: 3 */
+        row-gap: 40px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr); /* Laptop: 4 */
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .product-grid {
+        grid-template-columns: repeat(5, 1fr); /* Desktop: 5 */
+    }
+}
+
+/* Verwijder de .product-card width: calc(...) regels die je had! 
+   De grid regelt de breedte nu volledig zelf. */
+
+/* Filter Styling */
+.filter-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+}
+
+.search-input {
+    flex: 2;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #26ad79;
+    outline: none;
+    font-size: 1rem;
+}
+
+.sort-select {
+    flex: 1;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+/* Optimalisaties voor hele kleine schermen */
+@media (max-width: 400px) {
+    .product-grid {
+        gap: 10px;
+        padding: 10px;
+    }
+}

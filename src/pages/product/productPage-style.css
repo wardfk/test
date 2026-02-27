@@ -1,0 +1,147 @@
+/* ProductPage.css */
+.product-page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-main-section {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.product-image-box {
+    flex: 1;
+    background-color: #f9f9f9;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.product-emoji {
+    font-size: 5rem;
+}
+
+.product-info-box {
+    flex: 1;
+}
+
+.product-price {
+    color: #26ad79;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.product-select {
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.purchase-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.quantity-input {
+    width: 60px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.add-to-cart-btn {
+    flex-grow: 1;
+    background-color: #26ad79;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #1f8c62;
+}
+
+/* De blauwe info box */
+.product-details-box {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.1);
+}
+
+.details-title {
+    margin-top: 0;
+    color: #3498db;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.description-text {
+    line-height: 1.6;
+    color: #555;
+    white-space: pre-wrap; /* Behoudt enters uit de admin */
+    margin-top: 10px;
+}
+
+.product-meta-info {
+    margin-top: 25px;
+    display: flex;
+    gap: 30px;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px dashed #eee;
+    padding-top: 15px;
+}
+.product-description-container {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    max-width: 800px; /* Houdt de tekst leesbaar (niet te brede regels) */
+}
+
+.description-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.description-content p {
+    line-height: 1.6;
+    color: #555;
+    font-size: 1.05rem;
+    white-space: pre-wrap; /* Zorgt dat enters/regels uit de admin behouden blijven */
+}
+
+.no-description {
+    font-style: italic;
+    color: #999;
+}
+
+.product-meta {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.product-meta span {
+    background: #f9f9f9;
+    padding: 5px 10px;
+    border-radius: 4px;
+}

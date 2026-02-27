@@ -1,0 +1,218 @@
+/* navbar-style.css */
+
+.navbar {
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+}
+
+/* Logo */
+.navbar-logo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #26ad79; /* Jouw kenmerkende groen */
+    display: flex;
+    align-items: center;
+}
+
+/* Zoekbalk */
+.navbar-search {
+    flex: 1;
+    margin: 0 40px;
+    max-width: 400px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 18px;
+    border-radius: 25px;
+    border: 1px solid #e0e0e0;
+    background-color: #f8f9fa;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #26ad79;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(38, 173, 121, 0.1);
+}
+
+/* Links & Nav Items */
+.navbar-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color: #26ad79;
+}
+
+/* Dropdown Logica */
+.dropdown {
+    position: relative;
+    padding: 10px 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background-color: #fff;
+    min-width: 180px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 10px 0;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f8f5;
+    color: #26ad79;
+}
+
+/* Winkelmand Badge */
+.cart-icon {
+    display: flex;
+    align-items: center;
+    background: #e8f5e9;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #2e7d32;
+}
+
+.cart-badge {
+    background-color: #26ad79;
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 7px;
+    border-radius: 50%;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+/* User Menu & Logout */
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logout-btn {
+    background-color: #ffeded;
+    color: #d32f2f;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.logout-btn:hover {
+    background-color: #ffe0e0;
+}
+
+/* Hamburger styling */
+.hamburger {
+    display: none; /* Verborgen op desktop */
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background: #333;
+    transition: 0.3s;
+}
+
+/* Mobiel Menu (Media Query) */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar-content {
+        position: absolute;
+        top: 60px;
+        left: -100%; /* Buiten beeld */
+        flex-direction: column;
+        background: white;
+        width: 100%;
+        height: calc(100vh - 60px);
+        transition: 0.4s;
+        margin-left: 0;
+        padding: 40px 0;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .navbar-content.active {
+        left: 0; /* Schuif in beeld */
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-search {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Animaties voor hamburger naar X */
+    .bar.open:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+    .bar.open:nth-child(2) { opacity: 0; }
+    .bar.open:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+}

@@ -1,0 +1,246 @@
+a{
+    text-decoration: none;
+}
+
+/* 1. Zorg dat de klikbare link de rest van de kaart vult */
+.product-main-clickable-area {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; Dit vult de ruimte tussen de afbeelding en de knoppen */
+}
+
+/* 2. De Brand Name: De 'Witregel' Logica */
+.brand-name {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin: 5px 0;
+    text-align: center; /* Optioneel: uitlijnen met je card-info */
+
+    /* DIT IS DE FIX: */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    
+    height: 2.8em; /* Vaste hoogte voor precies 2 regels tekst */
+    line-height: 1.4em; /* Hoogte van één regel */
+}
+
+/* 3. Supplier Naam: Ook hier een vaste hoogte */
+.product-detail {
+    font-size: 0.85rem;
+    color: #95a5a6;
+    margin-bottom: 10px;
+    height: 1.2em; /* Vaste ruimte voor 1 regel supplier naam */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 4. Prijs-tag: Altijd onderaan het tekstblok */
+.price-tag {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #26ad79;
+    margin-top: auto; /* Duwt de prijs naar beneden als er ruimte over is */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Het hoofdkader van de kaart */
+.modern-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Zorgt dat alle kaarten in de grid even hoog zijn */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    position: relative;
+    border: 1px solid #f0f0f0;
+}
+
+/* Hover effect: de kaart komt een beetje "omhoog" */
+.modern-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* De Badge (Categorie) */
+.card-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #e8f5e9;
+    color: #26ad79;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+/* Placeholder voor de afbeelding */
+.image-placeholder {
+    background-color: #f9f9f9;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.emoji-icon {
+    font-size: 3rem;
+}
+
+/* Product informatie */
+.card-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.brand-name {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin: 5px 0;
+    /* Voorkom dat titels de kaart opblazen */
+    display: -webkit-box;
+    /* -webkit-line-clamp: 2; */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.product-detail {
+    font-size: 0.85rem;
+    color: #95a5a6;
+    margin-bottom: 0px;
+}
+
+.price-tag {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #26ad79;
+    margin: 10px 0;
+}
+
+/* Teller sectie */
+.counter-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    background: #f8f9fa;
+    padding: 4px;
+    border-radius: 25px;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.btn-circle:hover {
+    background: #26ad79;
+    color: white;
+    border-color: #26ad79;
+}
+
+.count-number {
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
+/* Actie knoppen onderaan */
+.card-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-add {
+    flex: 1; /* Pakt alle beschikbare ruimte */
+    background: #26ad79;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-add:hover {
+    background: #1e8a60;
+}
+
+.btn-reset {
+    background: #f1f1f1;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-reset:hover {
+    background: #e0e0e0;
+}
+
+/* Mobiele optimalisaties */
+@media (max-width: 600px) {
+    .modern-card {
+        padding: 10px;
+    }
+    .image-placeholder {
+        height: 120px;
+    }
+    .brand-name {
+        font-size: 0.95rem;
+    }
+    .price-tag {
+        font-size: 1.1rem;
+    }
+}
+
+/* Zorg dat .modern-card position: relative heeft! */
+modern-card {
+    position: relative; /* Cruciaal voor de badge positionering */
+    overflow: hidden;
+    border-radius: 12px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.promo-badge-circle {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #e63946;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 0.8rem;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(230, 57, 70, 0.3);
+    border: 2px solid white; /* Maakt de bol extra opvallend */
+}

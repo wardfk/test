@@ -1,0 +1,2820 @@
+{
+  "products": [
+    {
+      "id": "11",
+      "brand": "Sinaasappel",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-SIN-011",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 5,
+          "stock": 50,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "30ml",
+          "price": 14.5,
+          "stock": 30
+        }
+      ],
+      "isPromotion": false,
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "12",
+      "brand": "Bergamot Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-BER-012",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 10,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "30ml",
+          "price": 32,
+          "stock": 10
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "13",
+      "brand": "Wierook (Frankincense)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-WIE-013",
+      "options": [
+        {
+          "size": "5ml",
+          "price": 9.99,
+          "stock": 15,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "10ml",
+          "price": 34,
+          "stock": 5
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "14",
+      "brand": "Patchouli Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-PAT-014",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 14.59,
+          "stock": 22,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "30ml",
+          "price": 29.95,
+          "stock": 12
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "15",
+      "brand": "Den (Grove Den)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-DEN-015",
+      "options": [
+        {
+          "size": "10ml",
+          "stock": 40,
+          "oldPrice": 4,
+          "isOptionPromotion": true,
+          "price": 3
+        },
+        {
+          "size": "30ml",
+          "price": 18.5,
+          "stock": 20
+        }
+      ],
+      "isPromotion": true
+    },
+    {
+      "id": "16",
+      "brand": "Cederhout Atlas",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-CED-016",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 29.19,
+          "stock": 35,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "30ml",
+          "price": 16,
+          "stock": 15
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "17",
+      "brand": "Salie (Scharlei)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-SAL-017",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 14.89,
+          "stock": 12,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "30ml",
+          "price": 36,
+          "stock": 6
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "18",
+      "brand": "Ylang Ylang III",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-YLA-018",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 12,
+          "stock": 18,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "30ml",
+          "price": 38.5,
+          "stock": 8
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "19",
+      "brand": "Citroengras (Lemongrass)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-LEM-019",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 10.59,
+          "stock": 45,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "30ml",
+          "price": 16.5,
+          "stock": 25
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "20",
+      "brand": "Kaneelblad Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-KAN-020",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 1,
+          "stock": 20,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "30ml",
+          "price": 21,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "brand": "Castor Olie (Wonderolie)",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-CAS-021",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 9.5,
+          "stock": 60,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "250ml",
+          "price": 16.95,
+          "stock": 40
+        },
+        {
+          "size": "1L",
+          "price": 39,
+          "stock": 15
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "22",
+      "brand": "Avocado Olie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-AVO-022",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 4.75,
+          "stock": 30,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "250ml",
+          "price": 21,
+          "stock": 20
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "23",
+      "brand": "Druivenpitolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-DRU-023",
+      "options": [
+        {
+          "size": "250ml",
+          "price": 10,
+          "stock": 40,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "1L",
+          "price": 32,
+          "stock": 12
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "24",
+      "brand": "Hennepzaadolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-HEN-024",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 13.95,
+          "stock": 25
+        },
+        {
+          "size": "250ml",
+          "price": 24.5,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "brand": "Abrikozenpitolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-ABR-025",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 10.95,
+          "stock": 35
+        },
+        {
+          "size": "500ml",
+          "price": 32,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "brand": "Rozenbottelolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-ROZ-026",
+      "options": [
+        {
+          "size": "30ml",
+          "price": 9.49,
+          "stock": 20,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "100ml",
+          "price": 45,
+          "stock": 8
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "27",
+      "brand": "Teunisbloemolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-TEU-027",
+      "options": [
+        {
+          "size": "50ml",
+          "price": 5,
+          "stock": 15,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "100ml",
+          "price": 24,
+          "stock": 10
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "28",
+      "brand": "Calendula Olie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-CAL-028",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 6,
+          "stock": 40,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "250ml",
+          "price": 24,
+          "stock": 20
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "29",
+      "brand": "Zwarte Komijnolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-ZWA-029",
+      "options": [
+        {
+          "size": "50ml",
+          "price": 8,
+          "stock": 20,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "100ml",
+          "price": 29.5,
+          "stock": 12
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "30",
+      "brand": "Tarwekiemolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-TAR-030",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 1,
+          "stock": 30,
+          "oldPrice": null,
+          "isOptionPromotion": false
+        },
+        {
+          "size": "250ml",
+          "price": 22,
+          "stock": 15
+        }
+      ],
+      "isPromotion": false
+    },
+    {
+      "id": "31",
+      "brand": "Jeneverbes Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-JEN-031",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 13.95,
+          "stock": 20
+        },
+        {
+          "size": "30ml",
+          "price": 31,
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "brand": "Venkel Olie Zoet",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-VEN-032",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 10.5,
+          "stock": 25
+        },
+        {
+          "size": "30ml",
+          "price": 24.5,
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "brand": "Geranium Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-GER-033",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 17.5,
+          "stock": 15
+        },
+        {
+          "size": "30ml",
+          "price": 39.95,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "brand": "Kamille Rooms",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-KAM-034",
+      "options": [
+        {
+          "size": "2ml",
+          "price": 24.5,
+          "stock": 10
+        },
+        {
+          "size": "5ml",
+          "price": 49,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "brand": "Kruidnagel Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-KRU-035",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 8.95,
+          "stock": 30
+        },
+        {
+          "size": "30ml",
+          "price": 19.5,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "brand": "Marjolein Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-MAR-036",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 11.99,
+          "stock": 20,
+          "oldPrice": 12.5,
+          "isOptionPromotion": true
+        },
+        {
+          "size": "30ml",
+          "price": 28,
+          "stock": 10
+        }
+      ],
+      "isPromotion": true
+    },
+    {
+      "id": "37",
+      "brand": "Palmarosa Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-PAL-037",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 9.95,
+          "stock": 25
+        },
+        {
+          "size": "30ml",
+          "price": 22.5,
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "brand": "Ravintsara Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-RAV-038",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 14.5,
+          "stock": 18
+        },
+        {
+          "size": "30ml",
+          "price": 32.5,
+          "stock": 7
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "brand": "Tijm Olie (Linalool)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-TIJ-039",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 16.95,
+          "stock": 15
+        },
+        {
+          "size": "30ml",
+          "price": 38,
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "brand": "Wintergreen Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-WIN-040",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 11.5,
+          "stock": 22
+        },
+        {
+          "size": "30ml",
+          "price": 26.5,
+          "stock": 11
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "brand": "Lijnzaadolie Koudgeperst",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-LIJ-041",
+      "options": [
+        {
+          "size": "250ml",
+          "price": 8.95,
+          "stock": 40
+        },
+        {
+          "size": "1L",
+          "price": 24.5,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "brand": "Moringa Olie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-MOR-042",
+      "options": [
+        {
+          "size": "50ml",
+          "price": 19.5,
+          "stock": 20
+        },
+        {
+          "size": "100ml",
+          "price": 35,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "brand": "Macadamia Olie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-MAC-043",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 12.95,
+          "stock": 30
+        },
+        {
+          "size": "250ml",
+          "price": 24.5,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "brand": "Neem Olie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-NEE-044",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 10.5,
+          "stock": 40
+        },
+        {
+          "size": "250ml",
+          "price": 19.95,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "brand": "Walnootolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-WAL-045",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 9.95,
+          "stock": 35
+        },
+        {
+          "size": "250ml",
+          "price": 18.5,
+          "stock": 18
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "brand": "Granaatappelpitolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-GRA-046",
+      "options": [
+        {
+          "size": "30ml",
+          "price": 22.5,
+          "stock": 12
+        },
+        {
+          "size": "100ml",
+          "price": 59,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "brand": "Sint Jans-kruidolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-SJK-047",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 14.95,
+          "stock": 25
+        },
+        {
+          "size": "250ml",
+          "price": 29,
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "brand": "Sesamolie Koudgeperst",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-SES-048",
+      "options": [
+        {
+          "size": "250ml",
+          "price": 10.5,
+          "stock": 40
+        },
+        {
+          "size": "1L",
+          "price": 28,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "brand": "Rijstebloemolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-RIJ-049",
+      "options": [
+        {
+          "size": "250ml",
+          "price": 9.25,
+          "stock": 45
+        },
+        {
+          "size": "1L",
+          "price": 22.5,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "brand": "Camellia Olie (Theezaad)",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-CAM-050",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 15.95,
+          "stock": 22
+        },
+        {
+          "size": "250ml",
+          "price": 32,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "brand": "Epsom Zout",
+      "supplier": "Terra",
+      "categorie": "Zout",
+      "sku": "TE-EPS-051",
+      "options": [
+        {
+          "size": "1kg",
+          "price": 7.5,
+          "stock": 100
+        },
+        {
+          "size": "5kg",
+          "price": 28,
+          "stock": 40
+        },
+        {
+          "size": "25kg",
+          "price": 95,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "brand": "Magnesium Vlokken",
+      "supplier": "Terra",
+      "categorie": "Zout",
+      "sku": "TE-MAG-052",
+      "options": [
+        {
+          "size": "1kg",
+          "price": 12.95,
+          "stock": 60
+        },
+        {
+          "size": "4kg",
+          "price": 39.5,
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "brand": "Dode Zee Zout",
+      "supplier": "Terra",
+      "categorie": "Zout",
+      "sku": "TE-DZZ-053",
+      "options": [
+        {
+          "size": "1kg",
+          "price": 8.5,
+          "stock": 80
+        },
+        {
+          "size": "5kg",
+          "price": 32,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "brand": "Bentoniet Klei",
+      "supplier": "Terra",
+      "categorie": "DIY",
+      "sku": "TE-BEN-054",
+      "options": [
+        {
+          "size": "250g",
+          "price": 9.95,
+          "stock": 45
+        },
+        {
+          "size": "1kg",
+          "price": 24.5,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "brand": "Shea Butter (Ruw)",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-SHE-055",
+      "options": [
+        {
+          "size": "200g",
+          "price": 11.5,
+          "stock": 50
+        },
+        {
+          "size": "500g",
+          "price": 22,
+          "stock": 25
+        },
+        {
+          "size": "1kg",
+          "price": 38,
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "brand": "Cacaoboter Drops",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-CAC-056",
+      "options": [
+        {
+          "size": "250g",
+          "price": 14.95,
+          "stock": 30
+        },
+        {
+          "size": "1kg",
+          "price": 45,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "brand": "Bijenwas Geel (Pellets)",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-BIJ-057",
+      "options": [
+        {
+          "size": "100g",
+          "price": 6.5,
+          "stock": 100
+        },
+        {
+          "size": "500g",
+          "price": 24,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "brand": "Bijenwas Wit (Pellets)",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-BIW-058",
+      "options": [
+        {
+          "size": "100g",
+          "price": 6.95,
+          "stock": 80
+        },
+        {
+          "size": "500g",
+          "price": 26,
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "brand": "Kokosboter (Extra Virgin)",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-KOK-059",
+      "options": [
+        {
+          "size": "500ml",
+          "price": 12.5,
+          "stock": 40
+        },
+        {
+          "size": "1L",
+          "price": 21,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "brand": "Aloë Vera Gel (99%)",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-ALO-060",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 8.95,
+          "stock": 50
+        },
+        {
+          "size": "250ml",
+          "price": 18.5,
+          "stock": 30
+        },
+        {
+          "size": "1L",
+          "price": 55,
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "brand": "Gedroogde Lavendelbloemen",
+      "supplier": "Herbs",
+      "categorie": "Kruiden",
+      "sku": "KH-LAV-061",
+      "options": [
+        {
+          "size": "50g",
+          "price": 3,
+          "stock": 100,
+          "oldPrice": 4.5,
+          "isOptionPromotion": true
+        },
+        {
+          "size": "250g",
+          "price": 16,
+          "stock": 40
+        }
+      ],
+      "isPromotion": true
+    },
+    {
+      "id": "62",
+      "brand": "Kamillebloemen (Heel)",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-KAM-062",
+      "options": [
+        {
+          "size": "50g",
+          "price": 5.25,
+          "stock": 80
+        },
+        {
+          "size": "250g",
+          "price": 19.5,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "brand": "Rozenknopjes (Rood)",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-ROZ-063",
+      "options": [
+        {
+          "size": "50g",
+          "price": 6.95,
+          "stock": 50
+        },
+        {
+          "size": "250g",
+          "price": 28,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "brand": "Goudsbloem (Calendula)",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-GOU-064",
+      "options": [
+        {
+          "size": "50g",
+          "price": 5.5,
+          "stock": 60
+        },
+        {
+          "size": "250g",
+          "price": 22,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "brand": "Brandnetelblad (Gesneden)",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-BRA-065",
+      "options": [
+        {
+          "size": "100g",
+          "price": 4.25,
+          "stock": 120
+        },
+        {
+          "size": "500g",
+          "price": 15,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "brand": "Pepermuntblad",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-PEP-066",
+      "options": [
+        {
+          "size": "50g",
+          "price": 3.95,
+          "stock": 100
+        },
+        {
+          "size": "250g",
+          "price": 14.5,
+          "stock": 50
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "brand": "Hibiscusbloemen",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-HIB-067",
+      "options": [
+        {
+          "size": "100g",
+          "price": 6.5,
+          "stock": 70
+        },
+        {
+          "size": "500g",
+          "price": 24,
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "brand": "Salieblad (Heel)",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-SAL-068",
+      "options": [
+        {
+          "size": "50g",
+          "price": 4.95,
+          "stock": 60
+        },
+        {
+          "size": "250g",
+          "price": 18,
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "brand": "Rozemarijn (Naaldjes)",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-ROZ-069",
+      "options": [
+        {
+          "size": "100g",
+          "price": 3.5,
+          "stock": 150
+        },
+        {
+          "size": "500g",
+          "price": 12.5,
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "brand": "Eucalyptusblad",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-EUC-070",
+      "options": [
+        {
+          "size": "50g",
+          "price": 4.25,
+          "stock": 80
+        },
+        {
+          "size": "250g",
+          "price": 16.5,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "brand": "Vlierbloesem",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-VLI-071",
+      "options": [
+        {
+          "size": "50g",
+          "price": 5.95,
+          "stock": 50
+        },
+        {
+          "size": "250g",
+          "price": 24,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "brand": "Zoethoutwortel (Stukjes)",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-ZOE-072",
+      "options": [
+        {
+          "size": "100g",
+          "price": 4.5,
+          "stock": 90
+        },
+        {
+          "size": "500g",
+          "price": 18,
+          "stock": 35
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "brand": "Passiebloem",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-PAS-073",
+      "options": [
+        {
+          "size": "50g",
+          "price": 6.25,
+          "stock": 40
+        },
+        {
+          "size": "250g",
+          "price": 26.5,
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "brand": "Valeriaanwortel",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-VAL-074",
+      "options": [
+        {
+          "size": "50g",
+          "price": 7.5,
+          "stock": 30
+        },
+        {
+          "size": "250g",
+          "price": 32,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "brand": "St. Janskruid",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-SJK-075",
+      "options": [
+        {
+          "size": "50g",
+          "price": 5.5,
+          "stock": 55
+        },
+        {
+          "size": "250g",
+          "price": 22.5,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "brand": "Verbenablad",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-VER-076",
+      "options": [
+        {
+          "size": "50g",
+          "price": 6.5,
+          "stock": 45
+        },
+        {
+          "size": "250g",
+          "price": 27,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "brand": "Citroenmelisse",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-CIM-077",
+      "options": [
+        {
+          "size": "50g",
+          "price": 4.95,
+          "stock": 70
+        },
+        {
+          "size": "250g",
+          "price": 19.95,
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "brand": "Paardenbloemblad",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-PAA-078",
+      "options": [
+        {
+          "size": "50g",
+          "price": 4.5,
+          "stock": 60
+        },
+        {
+          "size": "250g",
+          "price": 17.5,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "brand": "Sleutelbloem",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-SLE-079",
+      "options": [
+        {
+          "size": "50g",
+          "price": 8.95,
+          "stock": 20
+        },
+        {
+          "size": "250g",
+          "price": 39,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "brand": "Driekleurig Viooltje",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-DRV-080",
+      "options": [
+        {
+          "size": "50g",
+          "price": 5.95,
+          "stock": 40
+        },
+        {
+          "size": "250g",
+          "price": 24.5,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "brand": "Bruin Glazen Pipetflesje",
+      "supplier": "EcoPack",
+      "categorie": "Accessoires",
+      "sku": "EP-PIP-081",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 1.5,
+          "stock": 500
+        },
+        {
+          "size": "30ml",
+          "price": 1.95,
+          "stock": 300
+        },
+        {
+          "size": "100ml",
+          "price": 2.5,
+          "stock": 150
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "brand": "Blauw Glazen Pipetflesje",
+      "supplier": "EcoPack",
+      "categorie": "Accessoires",
+      "sku": "EP-PIB-082",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 1.6,
+          "stock": 400
+        },
+        {
+          "size": "30ml",
+          "price": 2.1,
+          "stock": 250
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "brand": "Sprayflesje Glas (Transparant)",
+      "supplier": "EcoPack",
+      "categorie": "Accessoires",
+      "sku": "EP-SPR-083",
+      "options": [
+        {
+          "size": "30ml",
+          "price": 2.25,
+          "stock": 200
+        },
+        {
+          "size": "100ml",
+          "price": 2.95,
+          "stock": 100
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "brand": "Aluminium Zalfblikje",
+      "supplier": "EcoPack",
+      "categorie": "Accessoires",
+      "sku": "EP-ALU-084",
+      "options": [
+        {
+          "size": "15ml",
+          "price": 0.95,
+          "stock": 600
+        },
+        {
+          "size": "50ml",
+          "price": 1.5,
+          "stock": 300
+        },
+        {
+          "size": "100ml",
+          "price": 1.95,
+          "stock": 200
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "brand": "Roll-on Flesje (RVS Kogel)",
+      "supplier": "EcoPack",
+      "categorie": "Accessoires",
+      "sku": "EP-ROL-085",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 1.75,
+          "stock": 400
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "brand": "Maatbeker Glas",
+      "supplier": "LabEquip",
+      "categorie": "Accessoires",
+      "sku": "LE-BEA-086",
+      "options": [
+        {
+          "size": "50ml",
+          "price": 4.5,
+          "stock": 50
+        },
+        {
+          "size": "250ml",
+          "price": 7.95,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "brand": "Glazen Roerstaaf",
+      "supplier": "LabEquip",
+      "categorie": "Accessoires",
+      "sku": "LE-ROER-087",
+      "options": [
+        {
+          "size": "20cm",
+          "price": 1.25,
+          "stock": 100
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "brand": "Digitale Precisieweegschaal",
+      "supplier": "LabEquip",
+      "categorie": "Accessoires",
+      "sku": "LE-WEE-088",
+      "options": [
+        {
+          "size": "0.01g - 500g",
+          "price": 24.95,
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "brand": "Trechter RVS",
+      "supplier": "LabEquip",
+      "categorie": "Accessoires",
+      "sku": "LE-TRE-089",
+      "options": [
+        {
+          "size": "Klein",
+          "price": 3.5,
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "brand": "Vijzel met Stamper (Graniet)",
+      "supplier": "Terra",
+      "categorie": "Accessoires",
+      "sku": "TE-VIJ-090",
+      "options": [
+        {
+          "size": "12cm",
+          "price": 19.95,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "brand": "Keramiek Geurbrander",
+      "supplier": "ZenHome",
+      "categorie": "Accessoires",
+      "sku": "ZH-BRA-092",
+      "options": [
+        {
+          "size": "Standaard",
+          "price": 12.95,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "brand": "Houten Olie Opbergdoos",
+      "supplier": "ZenHome",
+      "categorie": "Accessoires",
+      "sku": "ZH-DOOS-093",
+      "options": [
+        {
+          "size": "12 vakjes",
+          "price": 22.5,
+          "stock": 10
+        },
+        {
+          "size": "24 vakjes",
+          "price": 39,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "brand": "Sandelhout (West-Indisch)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-SAN-101",
+      "options": [
+        {
+          "size": "5ml",
+          "price": 14.5,
+          "stock": 10
+        },
+        {
+          "size": "10ml",
+          "price": 26,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "brand": "Vetiver Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-VET-102",
+      "options": [
+        {
+          "size": "5ml",
+          "price": 16.95,
+          "stock": 12
+        },
+        {
+          "size": "10ml",
+          "price": 29.5,
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "brand": "Mirre Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-MIR-103",
+      "options": [
+        {
+          "size": "5ml",
+          "price": 18.5,
+          "stock": 8
+        },
+        {
+          "size": "10ml",
+          "price": 34,
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "brand": "Scharlei (Clary Sage)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-SCH-104",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 14.95,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "brand": "Zwarte Peper Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-ZWA-105",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 12.25,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "brand": "Baobab Olie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-BAO-106",
+      "options": [
+        {
+          "size": "50ml",
+          "price": 13.95,
+          "stock": 25
+        },
+        {
+          "size": "100ml",
+          "price": 24.5,
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "brand": "Tamanu Olie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-TAM-107",
+      "options": [
+        {
+          "size": "30ml",
+          "price": 17.5,
+          "stock": 20
+        },
+        {
+          "size": "100ml",
+          "price": 42,
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "brand": "Frambozenpitolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-FRA-108",
+      "options": [
+        {
+          "size": "30ml",
+          "price": 19.95,
+          "stock": 15
+        },
+        {
+          "size": "100ml",
+          "price": 48,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "brand": "Karanja Olie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-KAR-109",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 9.5,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "brand": "Duindoornolie (Bes)",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-DUI-110",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 15.5,
+          "stock": 12
+        },
+        {
+          "size": "30ml",
+          "price": 38,
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "brand": "Groene Klei (Frans)",
+      "supplier": "Terra",
+      "categorie": "DIY",
+      "sku": "TE-GRK-111",
+      "options": [
+        {
+          "size": "250g",
+          "price": 8.5,
+          "stock": 100
+        },
+        {
+          "size": "1kg",
+          "price": 22,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "brand": "Witte Klei (Kaolien)",
+      "supplier": "Terra",
+      "categorie": "DIY",
+      "sku": "TE-WIK-112",
+      "options": [
+        {
+          "size": "250g",
+          "price": 7.95,
+          "stock": 80
+        },
+        {
+          "size": "1kg",
+          "price": 19.5,
+          "stock": 35
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "brand": "Rode Klei (Illite)",
+      "supplier": "Terra",
+      "categorie": "DIY",
+      "sku": "TE-ROK-113",
+      "options": [
+        {
+          "size": "250g",
+          "price": 8.95,
+          "stock": 50
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "brand": "Ghassoul Klei (Marokkaans)",
+      "supplier": "Terra",
+      "categorie": "DIY",
+      "sku": "TE-GHA-114",
+      "options": [
+        {
+          "size": "200g",
+          "price": 10.5,
+          "stock": 60
+        },
+        {
+          "size": "1kg",
+          "price": 29,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "brand": "Actieve Kool (Poeder)",
+      "supplier": "Terra",
+      "categorie": "DIY",
+      "sku": "TE-AKO-115",
+      "options": [
+        {
+          "size": "100g",
+          "price": 12.95,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "brand": "Mangoboter",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-MAN-116",
+      "options": [
+        {
+          "size": "100g",
+          "price": 9.5,
+          "stock": 50
+        },
+        {
+          "size": "500g",
+          "price": 32,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "brand": "Cupuacu Boter",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-CUP-117",
+      "options": [
+        {
+          "size": "100g",
+          "price": 15,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "brand": "Lanoline (Wolvet)",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-LAN-118",
+      "options": [
+        {
+          "size": "100g",
+          "price": 11,
+          "stock": 30
+        },
+        {
+          "size": "500g",
+          "price": 38,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "brand": "Dode Zee Modder",
+      "supplier": "Terra",
+      "categorie": "DIY",
+      "sku": "TE-DZM-119",
+      "options": [
+        {
+          "size": "500g",
+          "price": 14.95,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "brand": "Glycerine (Plantaardig)",
+      "supplier": "Aura",
+      "categorie": "DIY",
+      "sku": "AU-GLY-120",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 5.95,
+          "stock": 100
+        },
+        {
+          "size": "500ml",
+          "price": 19,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "brand": "Kattenkruid (Nepeta)",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-KAT-121",
+      "options": [
+        {
+          "size": "50g",
+          "price": 4.95,
+          "stock": 50
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "brand": "Heemstwortel",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-HEE-122",
+      "options": [
+        {
+          "size": "100g",
+          "price": 7.5,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "brand": "Guldenroede",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-GUL-123",
+      "options": [
+        {
+          "size": "100g",
+          "price": 5.25,
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "brand": "Mariadistel Zaad",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-MAR-124",
+      "options": [
+        {
+          "size": "100g",
+          "price": 6.5,
+          "stock": 45
+        },
+        {
+          "size": "500g",
+          "price": 24,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "brand": "Monnikspeper",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-MON-125",
+      "options": [
+        {
+          "size": "100g",
+          "price": 8.95,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "brand": "Sint-Janskruid (Gedroogd)",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-SJK-126",
+      "options": [
+        {
+          "size": "50g",
+          "price": 5.5,
+          "stock": 55
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "brand": "Walnootblad",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-WAL-127",
+      "options": [
+        {
+          "size": "50g",
+          "price": 4.25,
+          "stock": 70
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "brand": "Vrouwenmantel",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-VRO-128",
+      "options": [
+        {
+          "size": "50g",
+          "price": 6.95,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "brand": "IJslands Mos",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-IJS-129",
+      "options": [
+        {
+          "size": "50g",
+          "price": 7.25,
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "brand": "Duizendblad",
+      "supplier": "KruidenHof",
+      "categorie": "Kruiden",
+      "sku": "KH-DUI-130",
+      "options": [
+        {
+          "size": "50g",
+          "price": 4.5,
+          "stock": 65
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "brand": "Wierookhars (Olibanum)",
+      "supplier": "Terra",
+      "categorie": "Hars",
+      "sku": "TE-WIE-131",
+      "options": [
+        {
+          "size": "50g",
+          "price": 6.95,
+          "stock": 100
+        },
+        {
+          "size": "250g",
+          "price": 24,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "brand": "Mirrehars (Korrels)",
+      "supplier": "Terra",
+      "categorie": "Hars",
+      "sku": "TE-MIR-132",
+      "options": [
+        {
+          "size": "50g",
+          "price": 8.5,
+          "stock": 50
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "brand": "Drakenbloed (Resin)",
+      "supplier": "Terra",
+      "categorie": "Hars",
+      "sku": "TE-DRA-133",
+      "options": [
+        {
+          "size": "25g",
+          "price": 12.95,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "brand": "Copal Hars (Wit)",
+      "supplier": "Terra",
+      "categorie": "Hars",
+      "sku": "TE-COP-134",
+      "options": [
+        {
+          "size": "50g",
+          "price": 9.5,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "brand": "Benzoë Hars (Siam)",
+      "supplier": "Terra",
+      "categorie": "Hars",
+      "sku": "TE-BEN-135",
+      "options": [
+        {
+          "size": "50g",
+          "price": 7.95,
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "brand": "Damar Hars",
+      "supplier": "Terra",
+      "categorie": "Hars",
+      "sku": "TE-DAM-136",
+      "options": [
+        {
+          "size": "50g",
+          "price": 5.5,
+          "stock": 80
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "brand": "Harsbrander Messing",
+      "supplier": "ZenHome",
+      "categorie": "Accessoires",
+      "sku": "ZH-BRA-137",
+      "options": [
+        {
+          "size": "Small",
+          "price": 14.95,
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "brand": "Houtskooltabletten",
+      "supplier": "ZenHome",
+      "categorie": "Accessoires",
+      "sku": "ZH-HOU-138",
+      "options": [
+        {
+          "size": "Rol (10st)",
+          "price": 2.5,
+          "stock": 200
+        },
+        {
+          "size": "Doos (100st)",
+          "price": 18,
+          "stock": 50
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "brand": "Palo Santo (Heilig Hout)",
+      "supplier": "ZenHome",
+      "categorie": "Accessoires",
+      "sku": "ZH-PAL-139",
+      "options": [
+        {
+          "size": "3 stokjes",
+          "price": 7.5,
+          "stock": 100
+        },
+        {
+          "size": "10 stokjes",
+          "price": 19.95,
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "brand": "Witte Salie (Smudge Stick)",
+      "supplier": "ZenHome",
+      "categorie": "Accessoires",
+      "sku": "ZH-SUD-140",
+      "options": [
+        {
+          "size": "10cm",
+          "price": 6.95,
+          "stock": 150
+        },
+        {
+          "size": "20cm",
+          "price": 12.5,
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "brand": "Diffuser Ketting RVS",
+      "supplier": "ZenHome",
+      "categorie": "Accessoires",
+      "sku": "ZH-KET-141",
+      "options": [
+        {
+          "size": "Zilver-kleur",
+          "price": 16.5,
+          "stock": 30
+        },
+        {
+          "size": "Goud-kleur",
+          "price": 18.5,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "brand": "Auto Diffuser (Clip)",
+      "supplier": "ZenHome",
+      "categorie": "Accessoires",
+      "sku": "ZH-AUT-142",
+      "options": [
+        {
+          "size": "Standaard",
+          "price": 9.95,
+          "stock": 50
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "brand": "Himalaya Zoutlamp",
+      "supplier": "ZenHome",
+      "categorie": "Accessoires",
+      "sku": "ZH-LAM-143",
+      "options": [
+        {
+          "size": "2-3 kg",
+          "price": 24.95,
+          "stock": 15
+        },
+        {
+          "size": "5-7 kg",
+          "price": 39,
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "brand": "Glazen Verstuiver (Luxe)",
+      "supplier": "EcoPack",
+      "categorie": "Accessoires",
+      "sku": "EP-VER-144",
+      "options": [
+        {
+          "size": "50ml",
+          "price": 4.5,
+          "stock": 80
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "brand": "Pipet Glas (Los)",
+      "supplier": "EcoPack",
+      "categorie": "Accessoires",
+      "sku": "EP-PIV-145",
+      "options": [
+        {
+          "size": "Standaard",
+          "price": 0.5,
+          "stock": 1000
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "brand": "Maatcilinder Glas",
+      "supplier": "LabEquip",
+      "categorie": "Accessoires",
+      "sku": "LE-CIL-146",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 6.95,
+          "stock": 40
+        },
+        {
+          "size": "100ml",
+          "price": 14.5,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "brand": "PH-Teststrips",
+      "supplier": "LabEquip",
+      "categorie": "Accessoires",
+      "sku": "LE-PHS-147",
+      "options": [
+        {
+          "size": "Boekje (80st)",
+          "price": 3.95,
+          "stock": 200
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "brand": "Laboratorium Thermometer",
+      "supplier": "LabEquip",
+      "categorie": "Accessoires",
+      "sku": "LE-THE-148",
+      "options": [
+        {
+          "size": "-10 tot 110°C",
+          "price": 12.5,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "brand": "Mini-mixer (Hand)",
+      "supplier": "LabEquip",
+      "categorie": "Accessoires",
+      "sku": "LE-MIX-149",
+      "options": [
+        {
+          "size": "Batterij-gevoed",
+          "price": 7.95,
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "brand": "Beschermende Handschoenen",
+      "supplier": "LabEquip",
+      "categorie": "Accessoires",
+      "sku": "LE-HAN-150",
+      "options": [
+        {
+          "size": "S",
+          "price": 1.5,
+          "stock": 100
+        },
+        {
+          "size": "M",
+          "price": 1.5,
+          "stock": 100
+        },
+        {
+          "size": "L",
+          "price": 1.5,
+          "stock": 100
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "brand": "Neroli Etherische Olie",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-NER-151",
+      "options": [
+        {
+          "size": "1ml",
+          "price": 29,
+          "stock": 10
+        },
+        {
+          "size": "5ml",
+          "price": 125,
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "brand": "Jasmijn Absolue",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-JAS-152",
+      "options": [
+        {
+          "size": "2ml",
+          "price": 35,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "brand": "Helichrysum (Immortelle)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-HEL-153",
+      "options": [
+        {
+          "size": "5ml",
+          "price": 42,
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "brand": "Roos (Damascena) 10%",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-ROD-154",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 24.95,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "brand": "Melisse Olie (Echt)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-MEL-155",
+      "options": [
+        {
+          "size": "1ml",
+          "price": 39,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "brand": "Arnica Olie (Macerat)",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-ARN-156",
+      "options": [
+        {
+          "size": "100ml",
+          "price": 16.5,
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "brand": "Granaatappelpitolie",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-GRA-157",
+      "options": [
+        {
+          "size": "30ml",
+          "price": 19.95,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "brand": "Sneeuwwitte Olie (Paraffine)",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-PAR-158",
+      "options": [
+        {
+          "size": "500ml",
+          "price": 8.5,
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "brand": "Walnootolie Koudgeperst",
+      "supplier": "Aura",
+      "categorie": "Basisoliën",
+      "sku": "AU-WAL-159",
+      "options": [
+        {
+          "size": "250ml",
+          "price": 14.95,
+          "stock": 30
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "brand": "Koffie Olie (Geroosterd)",
+      "supplier": "PureNature",
+      "categorie": "Olieën",
+      "sku": "PN-KOF-160",
+      "options": [
+        {
+          "size": "10ml",
+          "price": 18,
+          "stock": 15
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "7761",
+      "naam": "Ward Feys",
+      "email": "wardfeys@hotmail.com",
+      "wachtwoord": "$2b$10$yfjHM6XomEBuNde6NXg3teH6UKIIsAQ59Kz0Rl3r8rxX.eWqlY7yq"
+    },
+    {
+      "id": "fb79",
+      "naam": "bol",
+      "email": "bol@hotmail.com",
+      "wachtwoord": "$2b$10$E2alLSYKqxCBp7zZM.27q.qqrRxuMYm0TmxGgm1RAWt4w5TK3ngZC"
+    }
+  ],
+  "users-orders": [
+    {
+      "id": "db54",
+      "userId": "fb79",
+      "userEmail": "bol@hotmail.com",
+      "datum": "25/2/2026, 13:30:09",
+      "producten": [
+        {
+          "id": "13-5ml",
+          "brand": "Wierook (Frankincense)",
+          "supplier": "PureNature",
+          "categorie": "Olieën",
+          "sku": "PN-WIE-013",
+          "options": [
+            {
+              "size": "5ml",
+              "price": 19.5,
+              "stock": 15
+            },
+            {
+              "size": "10ml",
+              "price": 34,
+              "stock": 5
+            }
+          ],
+          "price": 19.5,
+          "volume": "5ml",
+          "quantity": 2
+        }
+      ],
+      "totaal": "39.00",
+      "status": "In behandeling"
+    },
+    {
+      "id": "f14b",
+      "userId": "7761",
+      "userEmail": "wardfeys@hotmail.com",
+      "datum": "25/2/2026, 13:51:45",
+      "producten": [
+        {
+          "id": "11",
+          "brand": "Sinaasappel Zoet",
+          "supplier": "PureNature",
+          "categorie": "Olieën",
+          "sku": "PN-SIN-011",
+          "options": [
+            {
+              "size": "10ml",
+              "price": 6.95,
+              "stock": 50
+            },
+            {
+              "size": "30ml",
+              "price": 14.5,
+              "stock": 30
+            }
+          ],
+          "quantity": 8
+        },
+        {
+          "id": "12",
+          "brand": "Bergamot Olie",
+          "supplier": "PureNature",
+          "categorie": "Olieën",
+          "sku": "PN-BER-012",
+          "options": [
+            {
+              "size": "10ml",
+              "price": 14.95,
+              "stock": 20
+            },
+            {
+              "size": "30ml",
+              "price": 32,
+              "stock": 10
+            }
+          ],
+          "quantity": 2
+        },
+        {
+          "id": "13",
+          "brand": "Wierook (Frankincense)",
+          "supplier": "PureNature",
+          "categorie": "Olieën",
+          "sku": "PN-WIE-013",
+          "options": [
+            {
+              "size": "5ml",
+              "price": 19.5,
+              "stock": 15
+            },
+            {
+              "size": "10ml",
+              "price": 34,
+              "stock": 5
+            }
+          ],
+          "quantity": 4
+        }
+      ],
+      "totaal": "0.00",
+      "status": "In behandeling"
+    },
+    {
+      "id": "ff16",
+      "userId": "7761",
+      "userEmail": "wardfeys@hotmail.com",
+      "datum": "25/2/2026, 13:52:40",
+      "producten": [
+        {
+          "id": "13",
+          "brand": "Wierook (Frankincense)",
+          "supplier": "PureNature",
+          "categorie": "Olieën",
+          "sku": "PN-WIE-013",
+          "options": [
+            {
+              "size": "5ml",
+              "price": 19.5,
+              "stock": 15
+            },
+            {
+              "size": "10ml",
+              "price": 34,
+              "stock": 5
+            }
+          ],
+          "price": 19.5,
+          "quantity": 2
+        }
+      ],
+      "totaal": "39.00",
+      "status": "In behandeling"
+    },
+    {
+      "id": "f6c0",
+      "userId": "7761",
+      "userEmail": "wardfeys@hotmail.com",
+      "datum": "25/2/2026, 13:55:52",
+      "producten": [
+        {
+          "id": "52-4kg",
+          "brand": "Magnesium Vlokken",
+          "supplier": "Terra",
+          "categorie": "Zout",
+          "sku": "TE-MAG-052",
+          "options": [
+            {
+              "size": "1kg",
+              "price": 12.95,
+              "stock": 60
+            },
+            {
+              "size": "4kg",
+              "price": 39.5,
+              "stock": 25
+            }
+          ],
+          "price": 39.5,
+          "volume": "4kg",
+          "quantity": 3
+        },
+        {
+          "id": "12",
+          "brand": "Bergamot Olie",
+          "supplier": "PureNature",
+          "categorie": "Olieën",
+          "sku": "PN-BER-012",
+          "options": [
+            {
+              "size": "10ml",
+              "price": 14.95,
+              "stock": 20
+            },
+            {
+              "size": "30ml",
+              "price": 32,
+              "stock": 10
+            }
+          ],
+          "price": 14.95,
+          "quantity": 2
+        }
+      ],
+      "totaal": "148.40",
+      "status": "In behandeling"
+    },
+    {
+      "id": "5c57",
+      "userId": "fb79",
+      "userEmail": "bol@hotmail.com",
+      "datum": "25/2/2026, 16:55:24",
+      "producten": [
+        {
+          "id": "84-15ml",
+          "brand": "Aluminium Zalfblikje",
+          "supplier": "EcoPack",
+          "categorie": "Accessoires",
+          "sku": "EP-ALU-084",
+          "options": [
+            {
+              "size": "15ml",
+              "price": 0.95,
+              "stock": 600
+            },
+            {
+              "size": "50ml",
+              "price": 1.5,
+              "stock": 300
+            },
+            {
+              "size": "100ml",
+              "price": 1.95,
+              "stock": 200
+            }
+          ],
+          "price": 0.95,
+          "volume": "15ml",
+          "quantity": 5
+        }
+      ],
+      "totaal": "4.75",
+      "status": "In behandeling"
+    }
+  ]
+}
